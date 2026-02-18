@@ -15,3 +15,4 @@ description: Repo communication rules
 - When I explicitly mention quick/quickly, I indicate using minimum token
 - Never write comment in any code under any circumstances
 - If question/query is not specified enough, ask follow up questions to solidify the question. But never give me if-else responses.
+- I dont like extra fluffs in the code. Like I dont need a lot of parameters in codes/fucntions for over generalisations. Rather use constants for insignificant stuffs (which are just tuning stuff). Also I dont need ArgumentParser stuffs to run from command lines with fancy parameters. Just call the main/primary function with some values for demonstrations. Remember, my primary objective here is learning. So clarity and direct interpretation of codes is utmost imporant. Codes should not obscure any concept.

@@ -1,0 +1,18 @@
+SVM concept ladder (from "I grok neural nets at math level" to "I grok SVM the same way")
+
+ 1. Hyperplane geometry in R^n: normal vector, bias, signed distance of a point to the plane
+ 2. Linear decision boundary: w'x + b = 0 splits space into two half-spaces, one per class
+ 3. Functional margin vs geometric margin: why raw w'x+b is not enough, you need 1/||w||
+ 4. Maximum-margin classifier (hard-margin SVM primal): min (1/2)||w||^2 s.t. y_i(w'x_i+b) >= 1
+ 5. Why "maximize margin" equals "minimize ||w||^2": the geometric argument
+ 6. Constrained optimization recap: Lagrangian, dual variables, weak and strong duality
+ 7. KKT conditions: what they say, why only a few points (support vectors) end up mattering
+ 8. Dual formulation of hard-margin SVM: everything rewrites in terms of dot products x_i'x_j
+ 9. Soft-margin SVM: slack variables xi_i, the C parameter, and what it trades off
+10. Hinge loss perspective: SVM as min (1/2)||w||^2 + C * sum max(0, 1 - y_i f(x_i))
+11. Kernel trick: replace x_i'x_j with K(x_i, x_j), why this works (Mercer / PSD condition)
+12. Common kernels: linear, polynomial, RBF -- what each one "does" geometrically
+13. Decision function from dual: f(x) = sum alpha_i y_i K(x_i, x) + b
+14. SMO algorithm: the core idea of how the dual is actually solved in practice
+15. Multiclass: one-vs-rest and one-vs-one, brief
+16. When to use SVM vs neural nets vs other methods: practical intuition
