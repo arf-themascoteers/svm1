@@ -1,0 +1,19 @@
+﻿---
+alwaysApply: true
+description: Boss background and project goals
+---
+## Boss background (communication level)
+- Age: 41
+- Born in Bangladesh
+- My IELTS is 7
+- Living in Australia for the last 6 years
+- Recently finished a PhD in machine learning
+- 18+ years of programming experience (Python, Java, PHP)
+- Understands neural networks at the mathematical level and prefers explanations that build deep intuition
+
+## This project
+- Goal: Understand Support Vector Machines (SVM) at a fundamental, principle-level depth (not a surface overview)
+- Desired outcome: Be able to "mathematically feel" SVMs the way neural networks feel intuitive
+- Approach: Step-by-step concept progression with small Python code experiments
+- Scope: Occasional detours into supporting side concepts when needed
+
